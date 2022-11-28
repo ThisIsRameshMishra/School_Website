@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Navlink,Routes ,Route } from 'react-router-dom'
 import About from './components/about';
 import Contact from './components/contact';
 import Gallery from './components/gallery';
+import Admission from './components/admission';
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<About/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/gallery" element={<Gallery/>}/>
+        <Route path="/admission" element={<Admission/>}/>
         
       </Routes>
     </Router>
