@@ -1,29 +1,15 @@
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Pages from './components/Pages/Pages';
+import Nav from './components/Header/Nav';
 
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import Home from './components/home';
-import {BrowserRouter as Router, Navlink,Routes ,Route } from 'react-router-dom';
-import About from './components/about';
-import Contact from './components/contact';
-import Gallery from './components/gallery';
-import Admission from './components/admission';
 function App() {
-  return (
-    <>
-    //this is Akshat k saath ramesh ka branch
-    
-    <Router>
-      <Routes>
-        <Route exact path="/" element={<Home/>}/>
-        <Route path="/about" element={<About/>}/>
-        <Route path="/contact" element={<Contact/>}/>
-        <Route path="/gallery" element={<Gallery/>}/>
-        <Route path="/admission" element={<Admission/>}/>
-        
-      </Routes>
-    </Router>
-    
-    </>
-  );
+	return (
+		<Router>
+			<Nav />
+			<Pages />
+		</Router>
+	);
 }
 
 export default App;

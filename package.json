@@ -1,0 +1,23 @@
+{
+	"name": "school_website",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "npm start --prefix frontend"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ThisIsRameshMishra/School_Website.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/ThisIsRameshMishra/School_Website/issues"
+	},
+	"homepage": "https://github.com/ThisIsRameshMishra/School_Website#readme",
+	"dependencies": {
+		"nodemon": "^2.0.20"
+	}
+}
