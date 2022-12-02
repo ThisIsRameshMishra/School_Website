@@ -1,20 +1,21 @@
-.navbar-container{
-    display: flex;
-    align-items: center;
-    
-    .school-title{
-        font-size: 40px;
-        text-decoration: underline;
-        flex: 1;
-        margin-left: 10px;
-    }
+.navbar-container {
+	display: flex;
+	align-items: center;
+	background-color: #eef5f4;
 
-    .navigator{
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        justify-content: flex-end;
-        flex: 1;
-        margin-right: 10px;
-    }
+	.school-title {
+		font-size: 40px;
+		font-weight: 800;
+		flex: 1;
+		margin-left: 10px;
+	}
+
+	.navigator {
+		display: flex;
+		align-items: center;
+		gap: 20px;
+		justify-content: flex-end;
+		flex: 1;
+		margin-right: 10px;
+	}
 }
