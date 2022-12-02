@@ -1,0 +1,20 @@
+.navbar-container{
+    display: flex;
+    align-items: center;
+    
+    .school-title{
+        font-size: 40px;
+        text-decoration: underline;
+        flex: 1;
+        margin-left: 10px;
+    }
+
+    .navigator{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: flex-end;
+        flex: 1;
+        margin-right: 10px;
+    }
+}
