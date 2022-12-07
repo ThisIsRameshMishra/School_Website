@@ -8,11 +8,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    margin-left: 20px;
 }
 .g_imgs img{
     height: 300px;
     width: 250px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .gh{
     text-align: center;
