@@ -4,7 +4,13 @@
 .g_img_row{
     
 }
-.g_imgs{
+.g_img_column{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.g_imgs img{
     height: 300px;
     width: 250px;
 }
