@@ -5,7 +5,11 @@ const Gcard = (props) => {
 	console.log(props.img);
 	return (
 		<>
-			<h1 className='gh'>{props.text}</h1>
+			<div className='gh'>
+				<div className='left'></div>
+				{props.text}
+				<div className='right'></div>
+			</div>
 			<div className='g_img_column'>
 				<div className='g_img_row'></div>
 				{props.img.map((elem) => {
