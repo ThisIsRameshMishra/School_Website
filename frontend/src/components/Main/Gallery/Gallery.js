@@ -1,11 +1,17 @@
-import React from "react";
+import React from 'react';
+import Gcard from './gal_card';
+import gdata from './gdata';
+import './styles/gallery.css';
 
-
-const Gallery=()=>{
-return(
-    <>
-    <h1>Gallery</h1>
-    </>
-)
-}
+const Gallery = () => {
+	return (
+		<>
+			<div className='gall'>
+				{gdata.map((val) => {
+					return <Gcard text={val.text} img={val.img} />;
+				})}
+			</div>
+		</>
+	);
+};
 export default Gallery;
