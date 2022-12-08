@@ -4,7 +4,7 @@ import './styles/gallery.css';
 const Gcard = (props) => {
 	console.log(props.img);
 	return (
-		<>
+		<React.Fragment>
 			<div className='gh'>
 				<div className='left'></div>
 				{props.text}
@@ -21,7 +21,8 @@ const Gcard = (props) => {
 				})}
 				<div></div>
 			</div>
-		</>
+            
+		</React.Fragment>
 	);
 };
 export default Gcard;

@@ -1,0 +1,67 @@
+.contactpage{
+    background-image: url("https://images.unsplash.com/photo-1581456495146-65a71b2c8e52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8aHVtYW58ZW58MHx8MHx8&w=1000&q=80");
+    color: transparent;
+    height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contactheading{
+    text-align: center;
+   padding: 180px;
+    
+    
+}
+.border{
+    border: 3px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-left: 35%;
+    margin-right:35%;
+}
+.contacttext{
+    color: white;
+    font-size: 29px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.schoolname{
+    color: yellow;
+    font-size: 26px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.reachus{
+    padding-top: 20px;
+    margin-left: 200px;
+}
+.addressheading{
+    font-size: 26px;
+    font-weight: 600;
+    color: #f31e1e;
+}
+.reachborder{
+    content: " ";
+    display: block;
+    padding-top: 15px;
+    border: 3px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-right: 90%;
+    
+}
+.Add{
+    padding-top: 15px;
+}
+.text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #7a7a7a;
+    padding-top: 15px;
+}
+.form{
+    margin-left: 50px;
+}
