@@ -2,9 +2,8 @@ import React from 'react';
 import './styles/gallery.css';
 
 const Gcard = (props) => {
-	console.log(props.img);
 	return (
-		<React.Fragment>
+		<>
 			<div className='gh'>
 				<div className='left'></div>
 				{props.text}
@@ -12,17 +11,16 @@ const Gcard = (props) => {
 			</div>
 			<div className='g_img_column'>
 				<div className='g_img_row'></div>
-				{props.img.map((elem) => {
+				{props.img.map((elem, i) => {
 					return (
-						<div className='g_imgs'>
+						<div className='g_imgs' key={i}>
 							<img src={elem} alt='...' />
 						</div>
 					);
 				})}
 				<div></div>
 			</div>
-            
-		</React.Fragment>
+		</>
 	);
 };
 export default Gcard;

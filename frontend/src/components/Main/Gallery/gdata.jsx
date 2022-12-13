@@ -1,4 +1,4 @@
-import images from '../../../assets/images';
+import image1 from '../../../assets/images/img.jpg';
 
 const gdata = [
 	{
@@ -18,7 +18,7 @@ const gdata = [
 
 	{
 		text: 'ANNUAL DAY',
-		img: [images.image1],
+		img: [image1],
 	},
 	{
 		text: 'SPORTS DAY',

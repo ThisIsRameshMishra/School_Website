@@ -7,8 +7,8 @@ const Gallery = () => {
 	return (
 		<>
 			<div className='gall'>
-				{gdata.map((val) => {
-					return <Gcard text={val.text} img={val.img} />;
+				{gdata.map((val, i) => {
+					return <Gcard text={val.text} img={val.img} key={i} />;
 				})}
 			</div>
 		</>
