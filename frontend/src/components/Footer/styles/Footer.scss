@@ -59,26 +59,36 @@
     display: flex;
     padding: 1.5rem;
     background-color: #000;
+    flex-wrap: wrap;
 
     .copyright {
       display: inline-block;
       flex: 1;
       padding-left: 2rem;
+      min-width: 22rem;
     }
 
     &-list {
       display: inline-flex;
       flex: 1;
       justify-content: flex-end;
-      margin-right: 3rem;
+      gap: 2rem;
+    }
+  }
 
-      &-item {
-        &:not(&:first-child){
-          margin-left: 2rem;
-        }
-        &:not(&:last-child){
-          margin-right: 2rem;
-        }
+  @media screen and (max-width: 550px) {
+    .bottom-footer {
+      flex-direction: column;
+      
+      .copyright {
+        margin-bottom: 2rem;
+        padding-left: 0;
+      }
+  
+      &-list {
+        gap: 0.5rem;
+        flex-direction: column;
+        justify-content: flex-start;
       }
     }
   }

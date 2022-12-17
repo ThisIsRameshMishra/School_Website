@@ -1,10 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import logo from '../../assets/images/logo.svg';
 import './styles/Nav.scss';
 
 const Nav = () => {
-	const [activeTab, setActiveTab] = useState('home');
+	const [activeTab, setActiveTab] = useState('/');
+	const location = useLocation();
+
+	useEffect(() => {
+		setActiveTab(location.pathname);
+	}, [location]);
 	return (
 		<div className='navbar-container'>
 			<div className='school-logo'>
@@ -13,35 +19,35 @@ const Nav = () => {
 			<div className='school-title'>SN Public School</div>
 			<div className='navigator'>
 				<Link
-					className={`navigate-btn ${activeTab === 'home' ? 'active' : ''}`}
+					className={`navigate-btn ${activeTab === '/' ? 'active' : ''}`}
 					onClick={() => setActiveTab('home')}
 					to={'/'}
 				>
 					Home
 				</Link>
 				<Link
-					className={`navigate-btn ${activeTab === 'about' ? 'active' : ''}`}
+					className={`navigate-btn ${activeTab === '/about' ? 'active' : ''}`}
 					onClick={() => setActiveTab('about')}
 					to={'/about'}
 				>
 					About
 				</Link>
 				<Link
-					className={`navigate-btn ${activeTab === 'contact' ? 'active' : ''}`}
+					className={`navigate-btn ${activeTab === '/contact' ? 'active' : ''}`}
 					onClick={() => setActiveTab('contact')}
 					to={'/contact'}
 				>
 					Contact
 				</Link>
 				<Link
-					className={`navigate-btn ${activeTab === 'gallery' ? 'active' : ''}`}
+					className={`navigate-btn ${activeTab === '/gallery' ? 'active' : ''}`}
 					onClick={() => setActiveTab('gallery')}
 					to={'/gallery'}
 				>
 					Gallery
 				</Link>
 				<Link
-					className={`navigate-btn ${activeTab === 'admission' ? 'active' : ''}`}
+					className={`navigate-btn ${activeTab === '/admission' ? 'active' : ''}`}
 					onClick={() => setActiveTab('admission')}
 					to={'/admission'}
 				>
