@@ -1,0 +1,19 @@
+.upper_nav{
+    background-color: #eb0000;
+}
+
+.add{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+
+.add1{
+    background-color: blue;
+}
+
+.add_img{
+    height: 300px;
+    width: 500px;
+}
