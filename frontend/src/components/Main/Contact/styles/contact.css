@@ -35,7 +35,7 @@ background-size: cover;
 }
 .reachus{
   padding-top: 20px;
-  margin-left: 200px;
+  margin-left: 15%;
 }
 .addressheading{
   font-size: 26px;
@@ -62,6 +62,70 @@ background-size: cover;
   color: #7a7a7a;
   padding-top: 15px;
 }
-.form{
-  margin-left: 50px;
+.name{
+  padding-top: 7px;
 }
+
+.apply-box{
+  max-width: 600px;
+  margin-left: 15%;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.form-container{
+  margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-control{
+  display: flex;
+  flex-direction: column;
+}
+label{
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+input, 
+select, 
+textarea{
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+input:focus , textarea:focus{
+  outline-color: red;
+}
+.button-container{
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;  
+}
+button{
+  background-color: red;
+  border: transparent solid 2px;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 8px;
+}
+button:hover{
+  background-color: cyan;
+  color: black;
+  border: 2px solid cyan;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+}
+.textarea-control{
+  grid-column: 1 /span 2;
+} 
+.textarea-control textarea{
+  width: 97%;
+}
+@media (max-width: 460px){
+  .textarea-control{
+  grid-column: 1 /span 1;
+}
+};
