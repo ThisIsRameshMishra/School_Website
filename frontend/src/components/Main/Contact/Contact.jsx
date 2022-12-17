@@ -48,33 +48,35 @@ const Contact = () => {
 				</div>
 
 
-				<div className='apply-box' onSubmit={formSubmit}>
+				<div className='apply-box' >
 					<div className='form-container'>
 						<div className='form-control'>
 							<label forhtml='full-name'>Full Name</label>
-							<input id='full-name' name='full-name' placeholder='Enter Full Name' />
+							<input id='full-name' name='fullname' placeholder='Enter Full Name' value={data.fullname} onChange={InputEvent} />
 						</div>
 						<div className='form-control'>
 							<label forhtml='phone'>Phone</label>
-							<input type='number' id='phone' name='phone' placeholder='Enter phone' />
+							<input type='number' id='phone' name='phonenumber' placeholder='Enter phone' value={data.phonenumber} onChange={InputEvent}/>
 						</div> 
 						<div className='form-control'>
 							<label forhtml='email'>Email</label>
-							<input type='email' id='email' name='email' placeholder='Enter Email' />
+							<input type='email' id='email' name='email' placeholder='Enter Email' value={data.email} onChange={InputEvent}/>
 						</div>
 						<div className='textarea-control'>
 							<label forhtml='message'>Message</label>
 							<textarea
 								id='message'
-								name='message'
+								name='msg'
 								rows='4'
 								cols='50'
 								placeholder='Enter Message'
+								value={data.msg}
+								onChange={InputEvent}
 							></textarea>
 						</div>
 					</div>
 					<div className='button-container'>
-						<button type='submit'>Apply Now</button>
+						<button type='submit' onClick={formSubmit}>Apply Now</button>
 					</div>
 				</div>
 			</div>
