@@ -4,7 +4,7 @@ import React from "react";
 const Admission=()=>{
 return(
     <>
-    <h1>iuytf Admissionss</h1>
+    <h1> New Admissionss</h1>
     </>
 )
 }
