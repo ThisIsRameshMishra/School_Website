@@ -46,7 +46,9 @@ const Contact = () => {
 						<p className='text'>E-Mail: davbangalore@gmail.com</p>
 					</div>
 				</div>
-				<div className='apply-box'>
+
+
+				<div className='apply-box' onSubmit={formSubmit}>
 					<div className='form-container'>
 						<div className='form-control'>
 							<label forhtml='full-name'>Full Name</label>
@@ -55,7 +57,7 @@ const Contact = () => {
 						<div className='form-control'>
 							<label forhtml='phone'>Phone</label>
 							<input type='number' id='phone' name='phone' placeholder='Enter phone' />
-						</div>
+						</div> 
 						<div className='form-control'>
 							<label forhtml='email'>Email</label>
 							<input type='email' id='email' name='email' placeholder='Enter Email' />
