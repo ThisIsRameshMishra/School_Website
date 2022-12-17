@@ -46,83 +46,34 @@ const Contact = () => {
 						<p className='text'>E-Mail: davbangalore@gmail.com</p>
 					</div>
 				</div>
-				<div className='form'>
-					<form onSubmit={formSubmit}>
-						<div className='mb-3'>
-							<label htmlFor='exampleFormControlInput1' className='form-label'>
-								Full Name
-							</label>
-							<input
-								type='text'
-								className='form-control'
-								id='exampleFormControlInput1'
-								name='fullname'
-								value={data.fullname}
-								onChange={InputEvent}
-								placeholder='Enter Your Name'
-							/>
+				<div className='apply-box'>
+					<div className='form-container'>
+						<div className='form-control'>
+							<label forhtml='full-name'>Full Name</label>
+							<input id='full-name' name='full-name' placeholder='Enter Full Name' />
 						</div>
-
-						<div className='mb-3'>
-							<label htmlFor='exampleFormControlInput1' className='form-label'>
-								Gender
-							</label>
-							<select className='form-control' id='gender'>
-								<option>Select Gender</option>
-								<option>Male</option>
-								<option>Female</option>
-							</select>
+						<div className='form-control'>
+							<label forhtml='phone'>Phone</label>
+							<input type='number' id='phone' name='phone' placeholder='Enter phone' />
 						</div>
-
-						<div className='mb-3'>
-							<label htmlFor='exampleFormControlInput1' className='form-label'>
-								Phone
-							</label>
-							<input
-								type='number'
-								className='form-control'
-								id='exampleFormControlInput1'
-								name='phonenumber'
-								value={data.phonenumber}
-								onChange={InputEvent}
-								placeholder='mobile number'
-							/>
+						<div className='form-control'>
+							<label forhtml='email'>Email</label>
+							<input type='email' id='email' name='email' placeholder='Enter Email' />
 						</div>
-
-						<div className='mb-3'>
-							<label htmlFor='exampleFormControlInput1' className='form-label'>
-								Email address
-							</label>
-							<input
-								type='email'
-								className='form-control'
-								id='exampleFormControlInput1'
-								name='email'
-								value={data.email}
-								onChange={InputEvent}
-								placeholder='name@example.com'
-							/>
-						</div>
-
-						<div className='mb-3'>
-							<label htmlFor='exampleFormControlTextarea1' className='form-label'>
-								Message
-							</label>
+						<div className='textarea-control'>
+							<label forhtml='message'>Message</label>
 							<textarea
-								className='form-control'
-								name='msg'
-								value={data.msg}
-								onChange={InputEvent}
-								id='exampleFormControlTextarea1'
-								rows='3'
+								id='message'
+								name='message'
+								rows='4'
+								cols='50'
+								placeholder='Enter Message'
 							></textarea>
 						</div>
-						<div className='col-12'>
-							<button className='btn btn-outline-primary' type='submit'>
-								Submit form
-							</button>
-						</div>
-					</form>
+					</div>
+					<div className='button-container'>
+						<button type='submit'>Apply Now</button>
+					</div>
 				</div>
 			</div>
 		</>
