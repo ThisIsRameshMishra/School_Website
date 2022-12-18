@@ -4,7 +4,12 @@ import React from "react";
 const Admission=()=>{
 return(
     <>
-    <h1>new Admissionss</h1>
+    <div className="header">
+        <div className="left">Hello</div>
+        <div className="right">
+        <img src=""/>
+        </div>
+    </div>
     </>
 )
 }
