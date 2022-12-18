@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+}
+
+.lefta{
+    height: 400px;
+    width: 50%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.righta{
+    height: 400px;
+    width: 50%;
+    background-color: rebeccapurple;
+}
+.header_img{
+    
+    height: 400px;
+    width: 100%;
+}
+
+.h1_add{
+    font-style: bold;
+    font-weight: 600;
+    font-size: 39px;
+    font-family: Alegreya,sans-serif;
+    line-height: 39px;
+    color: #ffff;
+}
