@@ -2,6 +2,7 @@ import React from "react";
 import img from "../../../assets/images/img.jpg"
 import "./styles/admission.css"
 const Admission=()=>{
+
 return(
     <>
     <div className="header">
@@ -16,5 +17,18 @@ return(
     
     </>
 )
+
+return (
+	<>
+		<div className='admission-header'>
+			<div className='admission-left'>Hello</div>
+			<div className='admission-right'>
+				<img src='' />
+			</div>
+		</div>
+		<h1> Admissionss</h1>
+	</>
+);
+
 }
 export default Admission;
