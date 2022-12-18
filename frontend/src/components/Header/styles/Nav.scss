@@ -35,6 +35,10 @@
 		justify-content: flex-end;
 		flex: 1;
 		margin-right: 3rem;
+
+		.cross {
+			display: none;
+		}
 	}
 
 	.navigate-btn {
@@ -62,4 +66,92 @@
 			opacity: 1;
 		}
 	}
+	.navBtn {
+		border: none;
+		background-color: transparent;
+		font-size: 3rem;
+		z-index: 150;
+		width: 5rem;
+		display: none;
+		top: 3rem;
+		right: 3rem;
+		cursor: pointer;
+
+		&:hover {
+		color: yellowgreen;
+		}
+	}
+
+	@media screen and (max-width: 800px) {
+
+		.navigator {
+			display: none;
+		}
+		.school-title{
+			flex: 10;
+			font-size: 2rem;
+		}
+		.navBtn {
+			flex: 3;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+	}}
 }
+
+
+.navPhone {
+	transform: translateX(-200%);
+	transition: none;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 100;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+
+	.navigator-phone {
+		position: absolute;
+		background-color: aliceblue;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		width: 20rem;
+		display: flex;
+		padding: 2rem;
+		flex-direction: column;
+
+		.cross {
+			display: block;
+			color: #989898;
+			margin: 2rem 2rem 2rem auto;
+			font-size: 2rem;
+			cursor: pointer;
+		}
+	}
+
+	.navigate-btn {
+		text-decoration: none;
+		display: inline-block;
+		padding: 1rem;
+		font-weight: 600;
+		font-size: 2rem;
+		border-bottom: 1px solid rgba(0,0,0,.1);
+		color: #989898;
+		font-family: "Alegreya", 'Fredoka One', sans-serif;
+
+		&:first-child {
+			margin-top: 4rem;
+		}
+	}
+}
+
+.navPhoneComes {
+	transform: translateX(0);
+}
+
+
