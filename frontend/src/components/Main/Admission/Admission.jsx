@@ -10,6 +10,7 @@ return(
         <img src=""/>
         </div>
     </div>
+    <h1> Admissionss</h1>
     </>
 )
 }
