@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/home.css";
+import './styles/home.scss';
 import i1 from "../../../assets/SchoolActivites/img9.jpeg";
 import i2 from "../../../assets/SchoolActivites/img10.jpeg";
 import i3 from "../../../assets/SchoolActivites/img11.jpeg";
