@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
-import logo from '../../assets/images/logo.svg';
+import logo from '../../assets/images/schoollogo.jpeg';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import './styles/Nav.scss';
 
