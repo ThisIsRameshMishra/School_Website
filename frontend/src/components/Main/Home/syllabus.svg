@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75.367" height="68.13" viewBox="0 0 75.367 68.13">
+  <g id="Icon_feather-book-open" data-name="Icon feather-book-open" transform="translate(1.5 1.5)">
+    <path id="Path_15" data-name="Path 15"
+      d="M3,4.5H24.71A14.473,14.473,0,0,1,39.183,18.973V69.63A10.855,10.855,0,0,0,28.328,58.775H3Z"
+      transform="translate(-3 -4.5)" fill="none" stroke="#fff" stroke-linecap="round"
+      stroke-linejoin="round" stroke-width="3"></path>
+    <path id="Path_16" data-name="Path 16"
+      d="M54.183,4.5H32.473A14.473,14.473,0,0,0,18,18.973V69.63A10.855,10.855,0,0,1,28.855,58.775H54.183Z"
+      transform="translate(18.183 -4.5)" fill="none" stroke="#fff" stroke-linecap="round"
+      stroke-linejoin="round" stroke-width="3"></path>
+  </g>
+</svg>
