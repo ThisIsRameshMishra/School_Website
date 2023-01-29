@@ -1,132 +1,132 @@
 .slideshow {
-	margin-top: 1.5rem;
-	overflow: hidden;
+  margin-top: 1.5rem;
+  overflow: hidden;
 }
 
 .slideshowSlider {
-	white-space: nowrap;
-	transition: ease 1000ms;
+  white-space: nowrap;
+  transition: ease 1000ms;
 }
 
 .slide {
-	display: inline-block;
-	height: 500px;
-	width: 100%;
-	border-radius: 40px;
+  display: inline-block;
+  height: 500px;
+  width: 100%;
+  border-radius: 40px;
 }
 
 /* Buttons */
 
 .slideshowDots {
-	text-align: center;
-	position: relative;
-	margin-top: -5rem;
-	margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+  margin-top: -5rem;
+  margin-bottom: 2rem;
 }
 
 .slideshowDot {
-	display: inline-block;
-	height: 20px;
-	width: 20px;
-	border-radius: 50%;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
 
-	cursor: pointer;
-	margin: 15px 7px 0px;
+  cursor: pointer;
+  margin: 15px 7px 0px;
 
-	background-color: #c4c4c4;
+  background-color: #c4c4c4;
 }
 
 .slideshowDot.active {
-	background-color: #6a0dad;
+  background-color: #6a0dad;
 }
 .msgbox {
-	background: #fff;
-	padding: 30px;
-	position: relative;
-	min-height: 200px;
-	width: 45%;
-	margin-left: 15%;
+  background: #fff;
+  padding: 30px;
+  position: relative;
+  min-height: 200px;
+  width: 45%;
+  margin-left: 15%;
 }
 .msg-content {
-	padding-right: 250px;
+  padding-right: 250px;
 }
 .block-title {
-	margin: 0;
-	margin-bottom: 15px;
-	color: #212121;
-	font-weight: 800;
-	font-size: 15px;
+  margin: 0;
+  margin-bottom: 15px;
+  color: #212121;
+  font-weight: 800;
+  font-size: 15px;
 }
 .message {
-	display: block;
-	line-height: 1.5;
-	margin: 0 10px 15px 0;
-	font-weight: 400;
-	font-size: 15px;
+  display: block;
+  line-height: 1.5;
+  margin: 0 10px 15px 0;
+  font-weight: 400;
+  font-size: 15px;
 }
 .name-script {
-	font-size: 15px;
-	font-weight: 600;
+  font-size: 15px;
+  font-weight: 600;
 }
 .title {
-	color: #999;
-	font-family: 'Source Serif Pro', serif;
-	font-size: 15px;
+  color: #999;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 15px;
 }
 .figure {
-	position: absolute;
-	right: 30px;
-	top: 30px;
-	max-height: 250px;
-	overflow: hidden;
-	max-width: 250px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  max-height: 250px;
+  overflow: hidden;
+  max-width: 250px;
 }
 .dir-img {
-	max-width: 100%;
-	vertical-align: middle;
-	border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
 }
 
 // Benifit card css
 
 .bc-container {
-	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 
-	.benifit-list {
-		background: #0d3b6b;
-		display: flex;
-		padding: 2rem;
-		border-radius: 10px;
-		color: #fff;
-		text-align: center;
-		box-shadow: 0px 3px 9px #8e8d8d;
-	}
+  .benifit-list {
+    background: #0d3b6b;
+    display: flex;
+    padding: 2rem;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 3px 9px #8e8d8d;
+  }
 
-	.list-div {
-		padding: 0 2rem;
-		width: 25%;
-		min-width: 12rem;
-		&:not(&:last-child) {
-			border-right: 1px solid #1d5085;
-		}
+  .list-div {
+    padding: 0 2rem;
+    width: 25%;
+    min-width: 12rem;
+    &:not(&:last-child) {
+      border-right: 1px solid #1d5085;
+    }
 
-		.bc-title {
-			color: #ff891e;
-		}
-	}
+    .bc-title {
+      color: #ff891e;
+    }
+  }
 }
 
 @media screen and (max-width: 640px) {
-	.bc-container {
-		.list-div {
+  .bc-container {
+    .list-div {
       width: 80%;
-			&:not(&:last-child) {
-				border: none;
-			}
-		}
-	}
+      &:not(&:last-child) {
+        border: none;
+      }
+    }
+  }
 }
