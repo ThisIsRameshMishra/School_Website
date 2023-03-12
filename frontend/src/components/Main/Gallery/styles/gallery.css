@@ -11,11 +11,12 @@
     margin-left: 20px;
 }
 .g_imgs img{
-    height: 400px;
-    width: 476px;
+    height: 300px;
+    width: 277px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
+
 .gh{
     margin: 40px auto;
     text-align: center;
@@ -52,3 +53,11 @@
     margin-right: 20px;
     margin-left: 10px;
 }
+@media (max-width: 460px){
+   .g_imgs img{
+    height: 200px;
+    width: 150px;
+    margin-right: 8px;
+    margin-bottom: 30px;
+   }
+  };

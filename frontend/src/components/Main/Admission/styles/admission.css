@@ -77,3 +77,11 @@
     margin-top: 15px;
     color: blue;
 }
+@media (max-width: 460px){
+    .header{
+        display: flex;
+    height: 200px;
+    margin-bottom: 50px;
+        
+    }
+  };

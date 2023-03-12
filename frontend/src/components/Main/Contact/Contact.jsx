@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./styles/contact.css";
 import axios from "axios";
+import "../../../assets/SchoolActivites/Holi/holi1.jpeg"
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -52,6 +53,7 @@ const Contact = () => {
     <>
       <div className="wholecontact">
         <div className="contactpage">
+        
           <div className="contactheading">
             <p className="contacttext">CONTACT US</p>
             <div className="border"></div>
