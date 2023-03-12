@@ -1,9 +1,6 @@
 .g_img_column{
     padding: 5px;
 }
-.g_img_row{
-    
-}
 .g_img_column{
     display: flex;
     flex-direction: row;
