@@ -2,15 +2,16 @@ head{
     color: aliceblue;
 }
 .ourschool{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .school_img{
     float: right;
-    height: 100%;
-    width: 30%;
-    margin-right: 200px;
+    height: 25rem;
+    width: 30rem;
+    margin-right: 100px;
     padding-left: 25px;
+    
 }
 .os_heading{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -27,3 +28,12 @@ head{
     padding: 10px;
     
 }
+@media (max-width: 460px){
+    .school_img{
+        float: right;
+        height: 25rem;
+        width: 100%;
+       margin-right: 10px;
+        
+    }
+  };

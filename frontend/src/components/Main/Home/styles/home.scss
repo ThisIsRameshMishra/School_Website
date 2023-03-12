@@ -1,16 +1,18 @@
 .slideshow {
   margin-top: 1.5rem;
   overflow: hidden;
+  
 }
 
 .slideshowSlider {
   white-space: nowrap;
   transition: ease 1000ms;
+  
 }
 
 .slide {
   display: inline-block;
-  height: 500px;
+  height: 800px;
   width: 100%;
   border-radius: 40px;
 }
@@ -39,53 +41,7 @@
 .slideshowDot.active {
   background-color: #6a0dad;
 }
-.msgbox {
-  background: #fff;
-  padding: 30px;
-  position: relative;
-  min-height: 200px;
-  width: 45%;
-  margin-left: 15%;
-}
-.msg-content {
-  padding-right: 250px;
-}
-.block-title {
-  margin: 0;
-  margin-bottom: 15px;
-  color: #212121;
-  font-weight: 800;
-  font-size: 15px;
-}
-.message {
-  display: block;
-  line-height: 1.5;
-  margin: 0 10px 15px 0;
-  font-weight: 400;
-  font-size: 15px;
-}
-.name-script {
-  font-size: 15px;
-  font-weight: 600;
-}
-.title {
-  color: #999;
-  font-family: 'Source Serif Pro', serif;
-  font-size: 15px;
-}
-.figure {
-  position: absolute;
-  right: 30px;
-  top: 30px;
-  max-height: 250px;
-  overflow: hidden;
-  max-width: 250px;
-}
-.dir-img {
-  max-width: 100%;
-  vertical-align: middle;
-  border: 0;
-}
+
 
 // Benifit card css
 
@@ -129,4 +85,109 @@
       }
     }
   }
+  .slide {
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+    border-radius: 40px;
+  }
 }
+
+//Director Message Box
+
+.director-section{
+  height: 40rem;
+  width: 100%;
+  background-color: rgb(121, 121, 248);
+  padding-bottom: 65px;
+  
+}
+@media screen and (max-width: 1200px) {
+  .director-section{
+    background-color: rgb(121, 121, 248);
+  height: 100%;
+  
+  width: 100%;
+  }
+  
+}
+.dir-container{
+  width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+  display: flex;
+    flex-wrap: wrap;
+    padding-right: -10px;
+    padding-left: -10px;
+    width: 100%;
+}
+.direc-image {
+  width: 38rem;
+  padding: 50px;
+}
+.diri-img{
+  
+  height: 33rem;
+  width: 29rem;
+  padding: 20px;
+  background: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .diri-img {
+    height: 37rem;
+    width: 100%;
+    padding: 10px;
+  }
+  
+}
+@media screen and (max-width: 640px) {
+  .direc-image {
+    width: 100%;
+    padding: 50px;
+  }
+}
+.dir-msg{
+  
+  width: 44%;
+  padding-top: 50px;
+}
+@media screen and (max-width: 640px) {
+
+.dir-msg{
+  
+  width: 100rem;
+  padding-top: 10px;
+  
+  
+}
+}
+.director-heading{
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+}
+.quote{
+  font-style: italic;
+  font-size: 19px;
+  font-weight: 500;
+  color: white;
+}
+.msg1{
+  font-size: 16px;
+  font-weight: 200;
+  color: white;
+  
+}
+.msg2{
+  font-size: 16px;
+  font-weight: 200;
+  color: white;
+  
+}
+
+
+
+

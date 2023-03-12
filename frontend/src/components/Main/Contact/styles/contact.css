@@ -9,7 +9,7 @@ background-size: cover;
 }
 .contactheading{
   text-align: center;
- padding: 180px;
+  padding-top: 16rem
   
   
 }
@@ -35,7 +35,7 @@ background-size: cover;
 }
 .reachus{
   padding-top: 20px;
-  margin-left: 15%;
+  margin-left: 6%;
 }
 .addressheading{
   font-size: 26px;
@@ -68,7 +68,7 @@ background-size: cover;
 
 .apply-box{
   max-width: 600px;
-  margin-left: 15%;
+  margin-left: 6%;
   margin-top: 50px;
   border-radius: 10px;
   padding-bottom: 3.5rem;
@@ -83,6 +83,7 @@ background-size: cover;
 .form-control{
   display: flex;
   flex-direction: column;
+  width: 97%;
 }
 label{
   font-size: 15px;
@@ -99,25 +100,23 @@ textarea{
 
 input:focus , textarea:focus{
   outline-color: red;
+  
 }
 .button-container{
-  display: flex;
-  justify-content: end;
-  margin-top: 20px;  
+   display: flex;
+    margin-top: 20px;
+    
 }
 button{
-  background-color: red;
   border: transparent solid 2px;
   padding: 5px 10px;
-  color: white;
   border-radius: 8px;
-}
-button:hover{
   background-color: cyan;
   color: black;
   border: 2px solid cyan;
   transition: 0.2s ease-out;
   cursor: pointer;
+  
 }
 .textarea-control{
   grid-column: 1 /span 2;
