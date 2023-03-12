@@ -52,7 +52,7 @@ const Footer = () => {
 				</div>
 			</div>
 			<div className='bottom-footer'>
-				<div className='copyright'>Copyright 2023 &copy; Mangesh </div>
+				<div className='copyright'>Copyright 2023 &copy; SN Public School </div>
 				<div className='bottom-footer-list'>
 					<div className='bottom-footer-list-item'>ABOUT US</div>
 					<div className='bottom-footer-list-item'>ADMISSION</div>
