@@ -15,7 +15,7 @@ const Pages = () => {
 			<Route exact path='/contact' element={<Contact />} />
 			<Route exact path='/gallery' element={<Gallery />} />
 			<Route exact path='/admission' element={<Admission />} />
-			<Route path='*' element={<NotFound />} />
+{/* 			<Route path='*' element={<NotFound />} /> */}
 		</Routes>
 	);
 };
