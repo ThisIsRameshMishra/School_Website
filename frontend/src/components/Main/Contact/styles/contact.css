@@ -65,25 +65,44 @@ background-size: cover;
 .name{
   padding-top: 7px;
 }
+.follow{
+  font-size: 32px;
+  font-weight: 500;
+  color: #333333;
+}
+.socialmedia{
+  flex-grow: 1;
+  flex-basis: 200;
+}
 
 .apply-box{
-  max-width: 600px;
-  margin-left: 6%;
+ 
+  max-width: 100%;
   margin-top: 50px;
+  margin-bottom: 30px;
   border-radius: 10px;
   padding-bottom: 3.5rem;
+  background-color: #faebeb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center; 
 }
 
 .form-container{
   margin-top: 20px;
     display: flex;
     flex-direction: column;
+   padding-right: 30%;
+   padding-left: 30%;
     gap: 20px;
+  flex-basis: 200;
 }
 .form-control{
   display: flex;
   flex-direction: column;
   width: 97%;
+  
 }
 label{
   font-size: 15px;

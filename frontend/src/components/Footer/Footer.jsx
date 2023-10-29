@@ -15,7 +15,7 @@ const Footer = () => {
 						</div>
 						<div className='contact-div mb-1'>
 							<AiTwotonePhone />
-							<span>Ph: 7338522728 / 7899762728</span>
+							<span>Ph: 6206282610 / 7870613465</span>
 						</div>
 						<div className='contact-div mb-1'>
 							<AiOutlineMail />

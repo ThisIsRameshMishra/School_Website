@@ -1,13 +1,16 @@
 .slideshow {
   margin-top: 1.5rem;
   overflow: hidden;
-  
+  border-radius: 40px;
+  max-width: 1600px;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
 .slideshowSlider {
   white-space: nowrap;
   transition: ease 1000ms;
-  
+  height: 600px;
 }
 
 .slide {

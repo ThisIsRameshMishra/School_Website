@@ -5,7 +5,12 @@ import "./styles/about.css";
 const About = () => {
   return (
     <>
+    <div className="aboutpage">
+    <h1 className="aboutschool">ABOUT SN PUBLIC SCHOOL</h1>
+    <h1 className="aboutus">About Us</h1>
+    <hr className="line"/> 
       <div className="ourschool">
+      
         <h1 className="os_heading">OUR SCHOOL</h1>
         <div>
           <img className="school_img" src={img} />
@@ -105,6 +110,7 @@ const About = () => {
           expressed and exercised in the living out their chosen careers and
           vocations.
         </p>
+      </div>
       </div>
     </>
   );
