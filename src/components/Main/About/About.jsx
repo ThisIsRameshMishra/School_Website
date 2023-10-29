@@ -1,7 +1,7 @@
 import React from "react";
 import img from "../../../assets/images/admission.jpg";
 import vis from "../../../assets/SchoolActivites/Vission.jpg";
-import "./styles/about.css";
+import "./styles/about.scss";
 const About = () => {
   return (
     <>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Gcard from './gal_card';
 import gdata from './gdata';
-import './styles/gallery.css';
+import './styles/gallery.scss';
 
 const Gallery = () => {
 	return (

@@ -1,6 +1,6 @@
 import React from "react";
 import img from "../../../assets/images/admission.jpg";
-import "./styles/admission.css";
+import "./styles/admission.scss";
 const Admission = () => {
   return (
     <>

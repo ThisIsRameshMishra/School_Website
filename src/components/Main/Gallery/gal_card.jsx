@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/gallery.css';
+import './styles/gallery.scss';
 
 const Gcard = (props) => {
 	return (

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./styles/contact.css";
+import "./styles/contact.scss";
 import axios from "axios";
 import "../../../assets/SchoolActivites/Holi/holi1.jpeg"
 
