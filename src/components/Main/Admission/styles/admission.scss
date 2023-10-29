@@ -5,13 +5,17 @@
 }
 
 .lefta{
-    background-color: rgb(151, 151, 233);
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-back-school-background_23-2149464866.jpg?w=1380&t=st=1698604949~exp=1698605549~hmac=fb95adb6b7b2caba2675493a11b97047c41401d1911e66ffe4d9e75689c78d85");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     margin: auto;
     flex: 1;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;  
+    justify-content: center; 
+   
 }
 .righta{
   
@@ -29,7 +33,7 @@
     font-size: 39px;
     font-family: Alegreya,sans-serif;
     line-height: 39px;
-    color: #ffff;
+    color: rgb(118, 112, 211);
 }
 
 .adm_division{

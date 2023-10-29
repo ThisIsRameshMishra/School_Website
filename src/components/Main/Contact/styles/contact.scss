@@ -69,24 +69,31 @@ background-size: cover;
   font-size: 32px;
   font-weight: 500;
   color: #333333;
+  
 }
 .socialmedia{
   flex-grow: 1;
   flex-basis: 200;
+  
 }
 
 .apply-box{
- 
+  background-image: url("https://img.freepik.com/free-photo/paper-note-frame-with-brown-memphis-pattern-background_53876-119795.jpg?w=1380&t=st=1698604211~exp=1698604811~hmac=9eaac88c13f2bed865c7b89581e09e1039becbd2bd7ab4331877b4a6bedd8eb9");
+  background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
   max-width: 100%;
   margin-top: 50px;
   margin-bottom: 30px;
   border-radius: 10px;
   padding-bottom: 3.5rem;
   background-color: #faebeb;
+  box-shadow: 0 0 0 1px rgb(135 99 99 / 30%) inset, 0 0.5em 1em rgba(0, 0, 0, 0.6);
   display: flex;
   flex-wrap: wrap;
   justify-content: center; 
   align-items: center; 
+  
 }
 
 .form-container{
@@ -97,6 +104,7 @@ background-size: cover;
    padding-left: 30%;
     gap: 20px;
   flex-basis: 200;
+  
 }
 .form-control{
   display: flex;
@@ -107,6 +115,7 @@ background-size: cover;
 label{
   font-size: 15px;
   margin-bottom: 5px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3) inset, 0 0.5em 1em rgba(15, 0, 0, 0.6);
 }
 input, 
 select, 
