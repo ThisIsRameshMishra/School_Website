@@ -8,7 +8,7 @@ function App() {
 	const [menuOpen, setMenuOpen] = useState(false);
 
 	return (
-		<Router>
+		<Router history={hashHistory}>
 			<NavPhone menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 			<Nav menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 			<Pages />
