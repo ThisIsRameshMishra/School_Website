@@ -1,4 +1,3 @@
-import image1 from '../../../assets/images/img.jpg';
 import i1 from "../../../assets/SchoolActivites/img9.jpeg";
 import i2 from "../../../assets/SchoolActivites/img10.jpeg";
 import i3 from "../../../assets/SchoolActivites/img11.jpeg";
@@ -17,7 +16,6 @@ import i30 from "../../../assets/SchoolActivites/img30.jpeg";
 import i31 from "../../../assets/SchoolActivites/img31.jpeg";
 import SJ1 from "../../../assets/SchoolActivites/SJ1.jpeg";
 import SJ2 from "../../../assets/SchoolActivites/SJ2.jpeg";
-import c1 from "../../../assets/SchoolActivites/sn11_radhakrishna.jpeg";
 import sj3 from "../../../assets/SchoolActivites/sn14_opening.jpeg";
 import ed1 from "../../../assets/SchoolActivites/sn12_computer.jpeg"
 import c2 from "../../../assets/SchoolActivites/Holi/holi1.jpeg";
@@ -42,7 +40,7 @@ const gdata = [
 	{
 		text: 'CELEBRATIONS',
 		img: [
-			c1,c2,c3,c4,c5,c6
+			c2,c3,c4,c5,c6
 		],
 	},
 	{
