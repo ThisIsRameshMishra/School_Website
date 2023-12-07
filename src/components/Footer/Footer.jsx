@@ -59,7 +59,7 @@ const Footer = () => {
           <div className='bottom-footer-list-item'>ABOUT US</div>
           <div className='bottom-footer-list-item'>ADMISSION</div>
           <div className='bottom-footer-list-item'>
-            REACH US<span className='text-sm'>1.0.0</span>
+            REACH US<span className='text-sm'>1.0.1</span>
           </div>
         </div>
       </div>
