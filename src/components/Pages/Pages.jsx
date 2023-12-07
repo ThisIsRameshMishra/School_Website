@@ -10,12 +10,12 @@ import NotFound from '../Main/NotFound/NotFound';
 const Pages = () => {
 	return (
 		<Routes>
-			<Route exact path='/' element={<Home />} />
-			<Route exact path='/about' element={<About />} />
-			<Route exact path='/contact' element={<Contact />} />
-			<Route exact path='/gallery' element={<Gallery />} />
-			<Route exact path='/admission' element={<Admission />} />
-{/* 			<Route path='*' element={<NotFound />} /> */}
+			<Route path='/' element={<Home />} />
+			<Route path='/about' element={<About />} />
+			<Route path='/contact' element={<Contact />} />
+			<Route path='/gallery' element={<Gallery />} />
+			<Route path='/admission' element={<Admission />} />
+			<Route path='*' element={<NotFound />} />
 		</Routes>
 	);
 };

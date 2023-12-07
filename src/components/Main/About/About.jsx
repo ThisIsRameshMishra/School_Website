@@ -4,7 +4,6 @@ import vis from "../../../assets/SchoolActivites/Vission.jpg";
 import "./styles/about.scss";
 const About = () => {
   return (
-    <>
     <div className="aboutpage">
     <h1 className="aboutschool">ABOUT SN PUBLIC SCHOOL</h1>
     <h1 className="aboutus">About Us</h1>
@@ -112,7 +111,6 @@ const About = () => {
         </p>
       </div>
       </div>
-    </>
   );
 };
 export default About;
