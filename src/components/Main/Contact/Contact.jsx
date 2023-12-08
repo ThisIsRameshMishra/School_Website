@@ -65,16 +65,16 @@ const Contact = () => {
           <div className="reachborder"></div>
           <div className="Add">
             <p className="text">
-              Sy. No. 58 & 67, Kanthaiahana Palya Pipeline Road,
+              Barka Gaon, New pul Ara buxar road
             </p>
 
             <p className="text">
-              Kaggalipura Kanakapura Road, Bangalore-560116
+              Arrah, Bihar-802301
             </p>
 
-            <p className="text">Ph: +91 7338522728 / 7899762728</p>
+            <p className="text">Ph: +91 7870613465 / 6206282610</p>
 
-            <p className="text">E-Mail: davbangalore@gmail.com</p>
+            <p className="text">E-Mail: snpublicschool2020@gmail.com</p>
           </div>
         </div>
 
