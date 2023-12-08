@@ -9,7 +9,8 @@ import i5 from '../../../assets/SchoolActivites/Wide2.jpeg';
 import i6 from '../../../assets/SchoolActivites/Wide3.jpeg';
 import i7 from '../../../assets/images/home1.jpeg';
 import i8 from '../../../assets/images/home2.jpeg';
-import i9 from '../../../assets/images/home3.jpeg';
+
+const i9='https://ik.imagekit.io/snpublicschoolara/images/assembly.jpeg?updatedAt=1702019189127';
 
 import Messagebox from './Messagebox';
 const images = [i8,i9, i2, i3, i4, i5, i6];

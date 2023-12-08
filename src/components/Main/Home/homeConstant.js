@@ -19,7 +19,7 @@ const benifitsData = [
   {
     image: syllabus,
     title: 'CBSE STANDARD SYLLABUS',
-    content: 'The school follows CBSE syllabus from L.K.G to 10+2 level.',
+    content: 'The school follows CBSE syllabus from L.K.G to VIII level.',
   },
   {
     image: record,

@@ -3,6 +3,7 @@
 import React from 'react';
 import './styles/Footer.scss';
 import {AiOutlineMail, AiTwotonePhone, AiFillChrome} from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
           <div className='pseudo-underline'></div>
           <div className='widget-div'>
             <div className='address-title mb-1'>
-              Kanakapura Road, Bangalore-560116
+              Barka Gaon, New pul , Arrah , Biahr
             </div>
             <div className='contact-div mb-1'>
               <AiTwotonePhone />
@@ -21,11 +22,11 @@ const Footer = () => {
             </div>
             <div className='contact-div mb-1'>
               <AiOutlineMail />
-              <span>snpublicschool@gmail.com</span>
+              <span>snpublicschool2020@gmail.com</span>
             </div>
             <div className='contact-div mb-1'>
               <AiFillChrome />
-              <span>www.snpublicschool.com</span>
+              <span>www.snpublicschoolara.com</span>
             </div>
           </div>
         </div>
@@ -34,10 +35,10 @@ const Footer = () => {
           <div className='pseudo-underline'></div>
           <div className='widget-div'>
             <div className='widget-list'>
-              <div className='widget-list-item mb-1'>Admission</div>
-              <div className='widget-list-item mb-1'>About us</div>
-              <div className='widget-list-item mb-1'>Donate for education</div>
-              <div className='widget-list-item mb-1'>Photo Gallery</div>
+              <div className='widget-list-item mb-1'><Link to={'/admission'} preventScrollReset={true}>Admission</Link></div>
+              <div className='widget-list-item mb-1'><Link to={'/about'} preventScrollReset={true}>About us</Link></div>
+              <div className='widget-list-item mb-1'><Link to={'/contact'} preventScrollReset={true}>Contact</Link></div>
+              <div className='widget-list-item mb-1'><Link to={'/gallery'} preventScrollReset={true}>Gallery</Link></div>
             </div>
           </div>
         </div>
@@ -46,9 +47,9 @@ const Footer = () => {
           <div className='pseudo-underline'></div>
           <div className='widget-div'>
             <div className='widget-list'>
-              <div className='widget-list-item mb-1'>Facebook</div>
-              <div className='widget-list-item mb-1'>Instagram</div>
-              <div className='widget-list-item mb-1'>Twitter</div>
+              <div className='widget-list-item mb-1'><Link to="#">Facebook</Link></div>
+              <div className='widget-list-item mb-1'><Link to="#">Instagram</Link></div>
+              <div className='widget-list-item mb-1'><Link to="#">Twitter</Link></div>
             </div>
           </div>
         </div>
@@ -56,9 +57,9 @@ const Footer = () => {
       <div className='bottom-footer'>
         <div className='copyright'>Copyright 2023 &copy; SN Public School </div>
         <div className='bottom-footer-list'>
-          <div className='bottom-footer-list-item'>ABOUT US</div>
-          <div className='bottom-footer-list-item'>ADMISSION</div>
-          <div className='bottom-footer-list-item'>REACH US</div>
+          <Link to={'/about'} preventScrollReset={true} className='bottom-footer-list-item'>ABOUT US</Link>
+          <Link to={'/admission'} preventScrollReset={true} className='bottom-footer-list-item'>ADMISSION</Link>
+          <Link to={'/contact'} preventScrollReset={true} className='bottom-footer-list-item'>REACH US</Link>
         </div>
       </div>
     </footer>
