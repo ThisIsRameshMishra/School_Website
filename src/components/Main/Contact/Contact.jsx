@@ -33,7 +33,7 @@ const Contact = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:3003/contact",
+        "https://school-backend-production.up.railway.app/contact",
         requestOptions
       );
       if (response.ok) {
