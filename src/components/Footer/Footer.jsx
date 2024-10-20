@@ -14,7 +14,7 @@ const Footer = () => {
           <div className='pseudo-underline'></div>
           <div className='widget-div'>
             <div className='address-title mb-1'>
-              Barka Gaon, New pul , Arrah , Biahr
+              Barka Gaon, New pul , Arrah , Bihar
             </div>
             <div className='contact-div mb-1'>
               <AiTwotonePhone />
